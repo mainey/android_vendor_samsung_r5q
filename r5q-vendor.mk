@@ -1968,7 +1968,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libaudio_log_utils \
-    ImsSettings \
     TimeService \
     HotwordEnrollmentOKGoogleExWCD9340 \
     HotwordEnrollmentXGoogleExWCD9340
