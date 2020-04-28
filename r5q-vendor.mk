@@ -235,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service \
     vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.tima@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.tima@1.0-service \
     vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.ucm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.ucm@1.0-service \
-    vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.wifi@2.0-service \
     vendor/samsung/r5q/proprietary/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
     vendor/samsung/r5q/proprietary/vendor/bin/i2cdump:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdump \
     vendor/samsung/r5q/proprietary/vendor/bin/i2cget:$(TARGET_COPY_OUT_VENDOR)/bin/i2cget \
@@ -395,7 +394,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.tima@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.tima@1.0-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.ucm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.ucm@1.0-service.rc \
-    vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/wifi_qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_qcom.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
@@ -1873,11 +1871,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.tima@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.tima@1.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.ucm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@1.0-impl.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.ucm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.ucm@1.0.so \
-    vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so \
-    vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so \
-    vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vndk/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libcrypto.so \
-    vendor/samsung/r5q/proprietary/vendor/odm:$(TARGET_COPY_OUT_VENDOR)/odm \
     vendor/samsung/r5q/proprietary/vendor/saiv/image_understanding/db/COMMON_CPU__BV3.0FV/5.8.3/food_verifier_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/COMMON_CPU__BV3.0FV/5.8.3/food_verifier_cnn.prototxt \
     vendor/samsung/r5q/proprietary/vendor/saiv/image_understanding/db/COMMON_CPU__BV3.0FV/5.8.3/food_verifier_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/COMMON_CPU__BV3.0FV/5.8.3/food_verifier_cnn_light.caffemodel \
     vendor/samsung/r5q/proprietary/vendor/saiv/image_understanding/db/COMMON_CPU__BV3.0PV/5.8.3/movie_poster_verifier_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/COMMON_CPU__BV3.0PV/5.8.3/movie_poster_verifier_cnn.prototxt \
