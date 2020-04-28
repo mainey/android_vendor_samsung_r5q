@@ -229,8 +229,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.biometrics.face@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.face@1.0-service \
     vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
     vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.media.converter@1.0-service \
-    vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service \
-    vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.security.drk@2.0-service \
     vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.snap@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.snap@1.1-service \
     vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.atn@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.atn@1.0-service \
     vendor/samsung/r5q/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service \
@@ -294,11 +292,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/bin/unlink:$(TARGET_COPY_OUT_VENDOR)/bin/unlink \
     vendor/samsung/r5q/proprietary/vendor/bin/unshare:$(TARGET_COPY_OUT_VENDOR)/bin/unshare \
     vendor/samsung/r5q/proprietary/vendor/bin/uuidgen:$(TARGET_COPY_OUT_VENDOR)/bin/uuidgen \
-    vendor/samsung/r5q/proprietary/vendor/bin/vaultkeeperd:$(TARGET_COPY_OUT_VENDOR)/bin/vaultkeeperd \
-    vendor/samsung/r5q/proprietary/vendor/bin/vendor.samsung.hardware.security.proca@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.proca@2.0-service \
-    vendor/samsung/r5q/proprietary/vendor/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service \
     vendor/samsung/r5q/proprietary/vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service \
-    vendor/samsung/r5q/proprietary/vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.wsm@1.0-service \
     vendor/samsung/r5q/proprietary/vendor/bin/vendor_cmd_tool:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_cmd_tool \
     vendor/samsung/r5q/proprietary/vendor/bin/watch:$(TARGET_COPY_OUT_VENDOR)/bin/watch \
     vendor/samsung/r5q/proprietary/vendor/bin/wvkprov:$(TARGET_COPY_OUT_VENDOR)/bin/wvkprov \
@@ -378,7 +372,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
-    vendor/samsung/r5q/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.qti.hardware.cvp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.cvp@1.0-service.rc \
@@ -395,8 +388,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.face@1.0-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc \
-    vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
-    vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.snap@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.snap@1.1-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.atn@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.atn@1.0-service.rc \
@@ -407,7 +398,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/init/wifi_qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_qcom.rc \
-    vendor/samsung/r5q/proprietary/vendor/etc/init/wsm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wsm-service.rc \
     vendor/samsung/r5q/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/samsung/r5q/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/samsung/r5q/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
@@ -430,7 +420,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
     vendor/samsung/r5q/proprietary/vendor/etc/plmn_delta_usagsm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usagsm.bin \
     vendor/samsung/r5q/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
-    vendor/samsung/r5q/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/samsung/r5q/proprietary/vendor/etc/process_authenticator/pa_config:$(TARGET_COPY_OUT_VENDOR)/etc/process_authenticator/pa_config \
     vendor/samsung/r5q/proprietary/vendor/etc/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup \
     vendor/samsung/r5q/proprietary/vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml \
@@ -1867,14 +1856,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.health@1.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.media.converter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.media.converter@1.0.so \
-    vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.miscpower@2.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so \
-    vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.drk@2.0.so \
-    vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.proca@2.0.so \
-    vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.vaultkeeper@1.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.snap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.snap@1.0.so \
     vendor/samsung/r5q/proprietary/vendor/lib64/vendor.samsung.hardware.snap@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.snap@1.1.so \
