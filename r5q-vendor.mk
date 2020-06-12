@@ -31,3 +31,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
+    HotwordEnrollmentOKGoogleExWCD9340 \
+    HotwordEnrollmentXGoogleExWCD9340
